@@ -1,21 +1,17 @@
 # Assignment
 
-**TODO: Add description**
+### Installation
 
-## Installation
+To run this application you must have elixir installed
+https://elixir-lang.org/install.html
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `assignment` to your list of dependencies in `mix.exs`:
+### Launching
+All functions can be run via elixir CLI.
+To launch the CLI, run this in the root directory of the application: `iex -S mix`
 
-```elixir
-def deps do
-  [
-    {:assignment, "~> 0.1.0"}
-  ]
-end
-```
+Function fetch in the CLI: `Assignment.fetch(url)`
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/assignment](https://hexdocs.pm/assignment).
+### Testing
+
+to run the tests, in the root directory of the application: `mix test`
 
